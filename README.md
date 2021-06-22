@@ -18,7 +18,7 @@ had to train the weights of the fully connected layer, which had about 8000 para
 Dataset: 
 The dataset used for this purpose is the synthetic dataset created by Synthetic Dataset created by S.A Abbas and S.ul.Hussan. 
 https://drive.google.com/open?id=0B0ZBpkjFckxyNms0Smp0RWFsdTQ
-This is stored in a .mat file extension, with separate train files for labels and images. The examples are 6155 in number. All of which were used to train the model.
+This is stored in a .mat file extension, with separate train files for labels and images. The examples are 6615 in number. All of which were used to train the model.
 After training the model with 10 epochs, 0.01 learning rate, 16 batch size and using an MSE loss function, the train error was significantly reduced. However, it can be reduced even further with further learning.
 Then, we were able to predict the four corners by a simple forward pass and these were used in the next part of geometric transformation.
 
