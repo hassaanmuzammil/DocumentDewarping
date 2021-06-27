@@ -27,7 +27,7 @@ Geometric Transformation:
 The common technique of homography was used which requires four corresponding points. Hence, the four corners were passed from the model output to this problem. These points were mapped at the corners of the new image. Homography matrix was calculated and every coordinate/pixel of the original image was transformed. cv2 algorithms were used for this purpose.
 
 Results:
-The train MSE reduced from to an average of less than 15 per example, showing significant learning. The algorithm was tested using a training set image and a random image taken from a phone camera. Satisfactory results were produced.  
+The train MSE reduced from to an average of less than 15 pixels per corner, showing significant learning. The algorithm was tested using a training set image and a random image taken from a phone camera. Satisfactory results were produced if the image was downsampled enough to blur the documents internal writings.
 
 References:
 - https://blog.tensorflow.org/2019/12/kingsoft-wps-document-image-dewarping.html
